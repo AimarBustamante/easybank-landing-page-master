@@ -1,0 +1,47 @@
+// * General Styles
+
+// * Colors
+
+//* Primary
+$darkBlue: hsl(233, 26%, 24%);
+$limeGreen: hsl(136, 65%, 51%);
+$brightCyan: hsl(192, 70%, 51%); 
+
+//* Neutral
+
+$grayishBlue: hsl(233, 8%, 62%);
+$lightGrayishBlue: hsl(220, 16%, 96%);
+$veryLightGray: hsl(0, 0%, 98%);
+$white: hsl(0, 0%, 100%);
+
+// * Fonts
+$publicSans: 'Public Sans', sans-serif;
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    position: relative;
+    overflow-x: hidden;
+    width: 100vw;
+    font-family: $publicSans;
+
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+span, p{
+    color: $grayishBlue;
+    font-weight: 300;
+}
+
+h1, h2, h3, h4{
+    font-weight: 300;
+    color: $darkBlue;
+}
