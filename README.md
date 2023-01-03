@@ -15,6 +15,8 @@
 
 - HTML
 - CSS
+- SCSS
+- JavaScript
 
 ## Author
 
