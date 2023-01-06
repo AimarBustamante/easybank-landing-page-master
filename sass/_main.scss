@@ -99,7 +99,7 @@
 // Articles 
 
 .latest-articles{
-    padding: 100px 50px;
+    padding: 100px 10%;
     background-color: $veryLightGray;
 }
 
@@ -175,6 +175,7 @@
 
     .brief_details h1{
         width: 95%;
+        font-size: 2rem;
     }
 
     .brief_details span{
@@ -183,13 +184,13 @@
 
     .mockup{
         background-size: 100%;
-        background-position-x: 120px;
-        background-position-y: 30px;
+        background-position-x: 90px;
+        background-position-y: 50px;
     }
 
     .mockup-img{
         width: 100%;
-        transform: translate(0, -90px);
+        transform: translate(0, -50px);
     }
 
     .benefit{

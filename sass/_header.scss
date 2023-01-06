@@ -2,7 +2,7 @@
 
 header{
     background-color: $white;
-    padding: 5px 50px;
+    padding: 6px 10% !important;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -54,7 +54,7 @@ header{
 @media (max-width:765px){
 
     header{
-        padding: 30px 40px;
+        padding: 30px 40px !important;
     }
 
     .navigation{
